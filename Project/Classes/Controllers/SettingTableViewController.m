@@ -86,9 +86,8 @@
     self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
 
     links = [[NSArray alloc] initWithObjects:
-                [NSDictionary dictionaryWithObjectsAndKeys:@"RubyKaigi 2010", @"title", @"http://rubykaigi.org/2010/", @"url", nil],
-                [NSDictionary dictionaryWithObjectsAndKeys:@"日本 Ruby 会議 2010 直前特集号", @"title", @"http://jp.rubyist.net/magazine/?preRubyKaigi2010", @"url", nil],
-                [NSDictionary dictionaryWithObjectsAndKeys:@"Tsukuba International Congress Center", @"title", @"http://www.epochal.or.jp/", @"url", nil],
+                [NSDictionary dictionaryWithObjectsAndKeys:@"YAPC::Asia Tokyo 2010", @"title", @"http://yapcasia.org/2010/", @"url", nil],
+                [NSDictionary dictionaryWithObjectsAndKeys:@"Tokyo Institute of Technology", @"title", @"http://www.titech.ac.jp/", @"url", nil],
                 [NSDictionary dictionaryWithObjectsAndKeys:@"ITO SOFT DESIGN Inc.", @"title", @"http://iphone.itosoft.com/", @"url", nil],
                 [NSDictionary dictionaryWithObjectsAndKeys:@"myPhotoViewer", @"title", @"http://itunes.apple.com/jp/app/myphotoviewer/id354874588?mt=8", @"url", nil],
                 nil];
@@ -101,6 +100,9 @@
                         nil];
                         
     frameworks = [[NSArray alloc] initWithObjects:
+                [NSDictionary dictionaryWithObjectsAndKeys:@"iRubyKaigi", @"title",
+                                                           @"ITO SOFT DESIGN Inc. ", @"subtitle",
+                                                           @"http://github.com/katsuyoshi/irubykaigi", @"url", nil],
                 [NSDictionary dictionaryWithObjectsAndKeys:@"JSON Framework", @"title",
                                                            @"Stig Brautaset", @"subtitle",
                                                            @"http://github.com/stig/json-framework", @"url", nil],

@@ -13,4 +13,9 @@ Dir.chdir vender_path do
   libs_on_github.each do |u|
     system("git clone #{u}")
   end
+  Dir.chdir "cider" do
+    system("git checkout 23f8bb2d1be06ef8ed914caa5d06f2045af0f197")
+  end
 end
+
+

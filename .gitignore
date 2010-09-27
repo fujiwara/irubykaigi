@@ -12,3 +12,4 @@ script/*.json
 archive
 *.tmp
 release
+*~

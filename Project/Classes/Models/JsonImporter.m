@@ -89,7 +89,7 @@
         NSString *path = [[NSBundle mainBundle] pathForResource:@"timetable_update" ofType:@"json"];
         mainSiteURL = [[NSURL alloc] initFileURLWithPath:path];
 #else
-        NSString *urlString = @"http://iphone.itosoft.com/irubykaigi/2010/timetables2.json";
+        NSString *urlString = @"http://labs.topicmaker.com/~fujiwara/yapc.json";
         mainSiteURL = [[NSURL alloc] initWithString:urlString];
 #endif
     }

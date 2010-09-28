@@ -40,7 +40,7 @@
         NSString *path = [[NSBundle mainBundle] pathForResource:@"archives" ofType:@"json"];
         mainSiteURL = [[NSURL alloc] initFileURLWithPath:path];
 #else
-        NSString *urlString = @"http://labs.topicmaker.com/~fujiwara/archives.json";
+        NSString *urlString = @"http://github.com/fujiwara/irubykaigi/raw/master/Project/archives.json";
         mainSiteURL = [[NSURL alloc] initWithString:urlString];
 #endif
     }

@@ -89,7 +89,7 @@
         NSString *path = [[NSBundle mainBundle] pathForResource:@"timetable_update" ofType:@"json"];
         mainSiteURL = [[NSURL alloc] initFileURLWithPath:path];
 #else
-        NSString *urlString = @"http://labs.topicmaker.com/~fujiwara/yapc.json";
+        NSString *urlString = @"http://github.com/fujiwara/irubykaigi/raw/master/Project/timetable_update.json";
         mainSiteURL = [[NSURL alloc] initWithString:urlString];
 #endif
     }
@@ -99,7 +99,7 @@
 - (NSURL *)backupSiteURL
 {
     if (backupSiteURL == nil) {
-        NSString *urlString = @"https://files.me.com/gutskun/uh5n9i";
+        NSString *urlString = @"http://labs.topicmaker.com/~fujiwara/timetable_update.json";
         backupSiteURL = [[NSURL alloc] initWithString:urlString];
     }
     return backupSiteURL;

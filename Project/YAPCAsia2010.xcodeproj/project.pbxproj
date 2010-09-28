@@ -1003,7 +1003,7 @@
 				PRODUCT_NAME = YAPCAsia20102010;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = YES;
-				SDKROOT = iphonesimulator4.0;
+				SDKROOT = iphoneos4.1;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -1019,7 +1019,7 @@
 				INFOPLIST_FILE = "YAPCAsia2010-Info.plist";
 				PRODUCT_NAME = YAPCAsia20102010;
 				RUN_CLANG_STATIC_ANALYZER = YES;
-				SDKROOT = iphonesimulator4.0;
+				SDKROOT = iphoneos4.1;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -1052,7 +1052,7 @@
 				PRODUCT_NAME = YAPCAsia20102010;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = YES;
-				SDKROOT = iphonesimulator4.0;
+				SDKROOT = iphoneos4.1;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = "Ad Hoc Distribution";
@@ -1083,7 +1083,7 @@
 				INFOPLIST_FILE = "YAPCAsia2010-Info.plist";
 				PRODUCT_NAME = YAPCAsia20102010;
 				RUN_CLANG_STATIC_ANALYZER = YES;
-				SDKROOT = iphonesimulator4.0;
+				SDKROOT = iphoneos4.1;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = AppStore;

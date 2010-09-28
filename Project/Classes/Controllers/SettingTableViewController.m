@@ -93,7 +93,7 @@
                 
     acknowledgements = [[NSArray alloc] initWithObjects:
                 [NSDictionary dictionaryWithObjectsAndKeys:@"ITO SOFT DESIGN Inc.", @"title",
-                                                           @"Original Developer", @"subtitle",
+                                                           @"The original developer of iRubyKaigi", @"subtitle",
                                                            @"http://iphone.itosoft.com/", @"url", nil],
                 [NSDictionary dictionaryWithObjectsAndKeys:@"The RubyKaigi 2010 Team", @"title",
                                                            @"icon, opening image", @"subtitle",

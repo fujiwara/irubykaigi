@@ -109,7 +109,7 @@
     self.view.backgroundColor = [UIColor clearColor];
     
     updateTabBarButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self  action:@selector(updateAction:)];
-    //self.navigationItem.leftBarButtonItem = updateTabBarButton;
+    self.navigationItem.leftBarButtonItem = updateTabBarButton;
 
     [self buildDateSecmentedController];
     

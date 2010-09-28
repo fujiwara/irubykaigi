@@ -126,7 +126,7 @@
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* iRubyKaigiAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRubyKaigiAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* iRubyKaigiAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRubyKaigiAppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* YAPCAsia20102010.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YAPCAsia20102010.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* yapcasia2010.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yapcasia2010.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		28860BE40F44EE6400985440 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -359,7 +359,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* YAPCAsia20102010.app */,
+				1D6058910D05DD3D006BFB54 /* yapcasia2010.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -792,9 +792,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* YAPCAsia2010 2010 */ = {
+		1D6058900D05DD3D006BFB54 /* YAPCAsia2010 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "YAPCAsia2010 2010" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "YAPCAsia2010" */;
 			buildPhases = (
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
@@ -804,9 +804,9 @@
 			);
 			dependencies = (
 			);
-			name = "YAPCAsia2010 2010";
+			name = YAPCAsia2010;
 			productName = iRubyKaigi2009;
-			productReference = 1D6058910D05DD3D006BFB54 /* YAPCAsia20102010.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* yapcasia2010.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -829,7 +829,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* YAPCAsia2010 2010 */,
+				1D6058900D05DD3D006BFB54 /* YAPCAsia2010 */,
 			);
 		};
 /* End PBXProject section */
@@ -1000,7 +1000,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				INFOPLIST_FILE = "YAPCAsia2010-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
-				PRODUCT_NAME = YAPCAsia20102010;
+				PRODUCT_NAME = yapcasia2010;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos4.1;
@@ -1017,7 +1017,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = YAPCAsia2010_Prefix.pch;
 				INFOPLIST_FILE = "YAPCAsia2010-Info.plist";
-				PRODUCT_NAME = YAPCAsia20102010;
+				PRODUCT_NAME = yapcasia2010;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos4.1;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1049,7 +1049,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = YAPCAsia2010_Prefix.pch;
 				INFOPLIST_FILE = "YAPCAsia2010-Info.plist";
-				PRODUCT_NAME = YAPCAsia20102010;
+				PRODUCT_NAME = yapcasia2010;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos4.1;
@@ -1081,7 +1081,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = YAPCAsia2010_Prefix.pch;
 				INFOPLIST_FILE = "YAPCAsia2010-Info.plist";
-				PRODUCT_NAME = YAPCAsia20102010;
+				PRODUCT_NAME = yapcasia2010;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos4.1;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1119,7 +1119,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "YAPCAsia2010 2010" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "YAPCAsia2010" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,

@@ -88,12 +88,13 @@
     links = [[NSArray alloc] initWithObjects:
                 [NSDictionary dictionaryWithObjectsAndKeys:@"YAPC::Asia Tokyo 2010", @"title", @"http://yapcasia.org/2010/", @"url", nil],
                 [NSDictionary dictionaryWithObjectsAndKeys:@"Tokyo Institute of Technology", @"title", @"http://www.titech.ac.jp/", @"url", nil],
-                [NSDictionary dictionaryWithObjectsAndKeys:@"ITO SOFT DESIGN Inc.", @"title", @"http://iphone.itosoft.com/", @"url", nil],
-                [NSDictionary dictionaryWithObjectsAndKeys:@"myPhotoViewer", @"title", @"http://itunes.apple.com/jp/app/myphotoviewer/id354874588?mt=8", @"url", nil],
                 nil];
                 
                 
     acknowledgements = [[NSArray alloc] initWithObjects:
+                [NSDictionary dictionaryWithObjectsAndKeys:@"ITO SOFT DESIGN Inc.", @"title",
+                                                           @"Original Developer", @"subtitle",
+                                                           @"http://iphone.itosoft.com/", @"url", nil],
                 [NSDictionary dictionaryWithObjectsAndKeys:@"The RubyKaigi 2010 Team", @"title",
                                                            @"icon, opening image", @"subtitle",
                                                            @"http://rubykaigi.tdiary.net/", @"url", nil],

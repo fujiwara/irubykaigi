@@ -59,7 +59,6 @@
 		4620EA2A120319AF008BB2BC /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4620EA25120319AF008BB2BC /* SBJsonWriter.m */; };
 		4621C44810070EB60052495F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4621C44710070EB60052495F /* icon.png */; };
 		4621C49E100718610052495F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4621C49D100718610052495F /* Default.png */; };
-		4621C51610072C4D0052495F /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 4621C4A710071B770052495F /* iTunesArtwork */; };
 		4628F9D711DD68F400EFB272 /* SessionBySpeakerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4628F9D611DD68F400EFB272 /* SessionBySpeakerTableViewController.m */; };
 		4628FA3C11DD76EA00EFB272 /* SessionDetailedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4628FA3B11DD76EA00EFB272 /* SessionDetailedTableViewController.m */; };
 		464F6C4B1234BB7A008B1B61 /* archives.json in Resources */ = {isa = PBXBuildFile; fileRef = 464F6C481234BB63008B1B61 /* archives.json */; };
@@ -120,6 +119,7 @@
 		46DDEDAC1218F8CC0046F022 /* SummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DDEDAA1218F8CC0046F022 /* SummaryViewController.m */; };
 		46DDEDAD1218F8CC0046F022 /* SummaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46DDEDAB1218F8CC0046F022 /* SummaryViewController.xib */; };
 		46EE14500FFE53FA000224D0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46EE144E0FFE53FA000224D0 /* Localizable.strings */; };
+		A0E3A3C0125B79F900CE54F6 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = A0E3A3BF125B79F900CE54F6 /* iTunesArtwork */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -227,7 +227,6 @@
 		46218A8811DBA47E00CBBADF /* session_by_date_icon_30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = session_by_date_icon_30x30.png; sourceTree = "<group>"; };
 		4621C44710070EB60052495F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		4621C49D100718610052495F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		4621C4A710071B770052495F /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
 		4628F9D511DD68F400EFB272 /* SessionBySpeakerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionBySpeakerTableViewController.h; sourceTree = "<group>"; };
 		4628F9D611DD68F400EFB272 /* SessionBySpeakerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionBySpeakerTableViewController.m; sourceTree = "<group>"; };
 		4628FA3A11DD76EA00EFB272 /* SessionDetailedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionDetailedTableViewController.h; sourceTree = "<group>"; };
@@ -325,6 +324,7 @@
 		46EE144F0FFE53FA000224D0 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
 		46EE14510FFE5406000224D0 /* Japanese */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = Japanese; path = Japanese.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* YAPCAsia2010-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "YAPCAsia2010-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		A0E3A3BF125B79F900CE54F6 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -389,6 +389,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A0E3A3BF125B79F900CE54F6 /* iTunesArtwork */,
 				4613666C1212E40E00801913 /* timetable_update.json */,
 				4620EA14120317F6008BB2BC /* timetable.json */,
 				46D1653512007283008FF7CD /* lightning_talks_info_en.csv */,
@@ -398,7 +399,6 @@
 				46BEE06B11E637990096B1B3 /* Default@2x.png */,
 				46BEE06C11E637990096B1B3 /* icon@2x.png */,
 				46218A8411DBA47E00CBBADF /* images */,
-				4621C4A710071B770052495F /* iTunesArtwork */,
 				4621C44710070EB60052495F /* icon.png */,
 				461409E61004DA3500964C01 /* favorite_on_blue.png */,
 				461409DB1004D97300964C01 /* favorite_on_red.png */,
@@ -843,7 +843,6 @@
 				46EE14500FFE53FA000224D0 /* Localizable.strings in Resources */,
 				4621C44810070EB60052495F /* icon.png in Resources */,
 				4621C49E100718610052495F /* Default.png in Resources */,
-				4621C51610072C4D0052495F /* iTunesArtwork in Resources */,
 				4663019E11DC7965008FEB6D /* session_by_speaker_icon_30x30.png in Resources */,
 				4663019F11DC7965008FEB6D /* session_by_speaker_icon_30x30@2x.png in Resources */,
 				466301A211DC7B1B008FEB6D /* session_by_room_icon_30x30.png in Resources */,
@@ -874,6 +873,7 @@
 				46DDEDAD1218F8CC0046F022 /* SummaryViewController.xib in Resources */,
 				464F6C4B1234BB7A008B1B61 /* archives.json in Resources */,
 				46AA7ED71237F21600A469F4 /* Entitlements.plist in Resources */,
+				A0E3A3C0125B79F900CE54F6 /* iTunesArtwork in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

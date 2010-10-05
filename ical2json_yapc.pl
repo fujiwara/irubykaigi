@@ -11,6 +11,7 @@ use Encode;
 use List::Util qw/ max /;
 use Web::Scraper;
 use LWP::Simple;
+use Digest::CRC qw/ crc16 /;
 
 my %icals = (
     "講堂" => "http://www.google.com/calendar/ical/perlassociation.org_ua20j663bsirsk1dl577n43lns%40group.calendar.google.com/public/basic.ics",
@@ -37,7 +38,6 @@ for my $day (14, 15, 16) {
         my $data = iCal::Parser->new->parse_strings($ical)->{events};
         my $events = $data->{2010}->{10}->{$day};
         for my $uid ( keys %$events ) {
-            $code++;
             my $e = $events->{$uid};
             my ($title, $speaker)
                 = ($e->{SUMMARY} =~ /^(.*) - (.*)$/);
@@ -55,7 +55,7 @@ for my $day (14, 15, 16) {
                 start_at => $e->{DTSTART}->strftime("%H:%M"),
                 end_at   => $e->{DTEND}->strftime("%H:%M"),
                 room     => $room,
-                code     => "$code",
+                code     => crc16( $e->{DESCRIPTION} ) . "",
                 %$summary,
             };
             $last_modified = max( $e->{DTSTAMP}, $last_modified );

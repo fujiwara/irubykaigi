@@ -55,7 +55,7 @@ for my $day (14, 15, 16) {
                 start_at => $e->{DTSTART}->strftime("%H:%M"),
                 end_at   => $e->{DTEND}->strftime("%H:%M"),
                 room     => $room,
-                code     => crc16( $e->{DESCRIPTION} ) . "",
+                code     => crc16($e->{SUMMARY}) || crc16($title),
                 %$summary,
             };
             $last_modified = max( $e->{DTSTAMP}, $last_modified );

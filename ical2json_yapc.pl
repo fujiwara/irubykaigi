@@ -34,7 +34,8 @@ for my $day (14, 15, 16) {
     my $sessions  = [];
     my $timetable = { day => "2010/10/$day", sessions => $sessions };
     for my $room ( keys %icals ) {
-        my $ical = $ical_cache->{$room} ||= get( $icals{$room} );
+        my $ical = $ical_cache->{$room} ||= get( $icals{$room} ) or die "Can't get ical $room";
+
         my $data = iCal::Parser->new->parse_strings($ical)->{events};
         my $events = $data->{2010}->{10}->{$day};
         for my $uid ( keys %$events ) {
